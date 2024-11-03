@@ -1,14 +1,18 @@
 r=int(input('no of rows'))
 c=int(input('no of cols'))
 m1=[]
-m2=[[4,5],[7,8]]
+m2=[]
 y=[]
-print(m2[1][1])
 for i in range(r):
     t=[]
     for j in range(c):
         t.append(j)
     m1.append(t)
+for i in range(r):
+    t=[]
+    for j in range(c):
+        t.append(j)
+    m2.append(t)
 for i in range(r):
     t=[]
     for j in range(c):
